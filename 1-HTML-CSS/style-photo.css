@@ -1,0 +1,5 @@
+body > div{
+	border-bottom: 3px dotted black;
+	padding: 50px;
+	text-align: center;
+}
