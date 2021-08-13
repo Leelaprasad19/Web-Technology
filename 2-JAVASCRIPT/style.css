@@ -1,0 +1,26 @@
+body{
+	text-align: center;
+	background-color: bisque;
+}
+input{
+	margin: 20px;
+}
+td > input{
+	margin: 5px;
+}
+h1{
+	color: rgb(200, 100, 200);
+}
+table{
+	width: 70%;
+	background-color: palegoldenrod;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+td{
+	background-color: lightcyan;
+}
+th{
+	padding: 10px;
+	background-color: white;
+}
