@@ -1,0 +1,18 @@
+body > div{
+	padding: 50px;
+	text-align: center;
+}
+
+body{
+	background-image: url(back-ground.jpg);
+}
+
+body > div:hover{
+	border: 1.5px solid whitesmoke;
+}
+iframe{
+	box-shadow: none;
+}
+iframe:hover{
+	box-shadow: 5px 5px 10px 10px whitesmoke;
+}
