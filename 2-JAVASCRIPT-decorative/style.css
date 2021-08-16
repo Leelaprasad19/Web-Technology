@@ -1,0 +1,122 @@
+
+/*			Login Page - Page 1    */
+h1{
+	color: rgb(200, 100, 200);
+}
+*{
+	box-sizing: border-box;
+}
+body, html{
+  height: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Roboto Mono', monospace;
+}
+.login-background{
+	border: 2px solid red;
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	background-color: rgb(255, 180, 150);
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px black;
+}
+#login{
+	padding: 30px;
+}
+.bg{
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*		Table	- Page 2	*/
+.block{
+	box-sizing: border-box;
+	border: 2px solid royalblue;
+	margin: 0.5%;
+	height: 300px;
+	width: 24%;
+	float: left;
+	border-radius: 15px;
+	background-color: bisque;
+	background-position: center;
+ 	background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+	border-radius: 15px 15px 0px 0px;
+}
+.item-title{
+	margin: 0px;
+	position: relative;
+}
+.item-title div{
+	color: red;
+}
+.item-title span:nth-child(1){
+	position: absolute;
+  left: 20px;
+}
+.item-title span:nth-child(2){
+	position:  absolute;
+  right: 20px;
+  font-weight: bold;
+}
+#item{
+	margin: 0.5%;
+	/*height: 200px;*/
+	width: 24%;
+	float: left;
+	background-color: transparent;
+}
+#item input{
+	margin: 0px;
+	border: 0px;
+	color: red;
+	width: 100%;
+	padding-bottom: 0px;
+  	border-bottom: 2px solid black;
+  	border-radius: 0px;
+}
+
+/*		For buttons			*/
+input[type=text],input[type=text]:focus,input[type=password],input[type=password]:focus{
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 0.7em;
+  background-color: transparent;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  outline: none;
+}
+input[type=button]{
+	margin: 20px;
+	margin-top: 45px;
+	text-align: center;
+	font-size: 80%;
+	border-radius: 30px;
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*hover effects*/
+
+input[type=button]:hover{
+	text-decoration: underline blink;
+	font-family: serif;
+	font-weight: bold;
+}
+
+

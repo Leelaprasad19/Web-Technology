@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Stationary Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class='bg'>
+
+	<!-- Base Page -->
+	<h1 id='heading'>Stationary Store</h1>
+
+	<!-- Form for Login -->
+	<div id='pageOne'>
+		<i class="material-icons" id='icon' style="font-size: 500%; color: dimgray;">spa</i>
+		<div class='login-background'>
+			<form id='login' name='details'>
+				<label style="margin-left: 55px;">Name : </label><input type="text" name="userName" placeholder="User Name" value=""><br>
+				<label>Password : </label><input type="password" name="password" placeholder="Password" value=""><br>
+				<input class='login-button' style='margin-bottom: 0px' type="button" value="Login" onclick="getConfirmation();">
+			</form>
+		</div>
+	</div>
+
+	<div id="welcome" style="text-align: left;"></div>
+	<!-- For Displaying Menu After clicking submit -->
+
+	<!-- For Table -->
+	<div id='table' style="display: none;">
+		<div id='content-1'>
+			<div class='block'>
+				<img src="images/pen.jpeg" height="85%" width="100%">
+				<div class="item-title">
+					<span>Pen</span>
+					<span>Rs. 5</span>
+				</div>
+			</div>
+			<div class='block block-2'>
+				<img src="images/books.jpeg" height="85%" width="100%">
+				<div class="item-title">
+					<span>Books</span>
+					<span>Rs. 35</span>
+				</div>
+			</div>
+			<div class='block block-3'>
+				<img src="images/A4Sheet.jpeg" height="85%" width="100%">
+				<div class="item-title">
+					<span>A4 Sheets</span>
+					<span>Rs. 300</span>
+				</div>
+			</div>
+			<div class='block block-4'>
+				<img src="images/pencilBox.jpeg" height="85%" width="100%">
+				<div class="item-title">
+					<span>Pencil Box</span>
+					<span>Rs. 50</span>
+				</div>
+			</div>
+		</div>
+
+		
+		<div>
+			<div id='item'>
+				<div>
+					<input type='text' id='pen' value='' placeholder='Number of Pencil'>
+				</div>
+			</div>
+			<div id='item'>
+				<div>
+					<input type='text' id='books' value='' placeholder='Number of Books'>
+				</div>
+			</div>
+			<div id='item'>
+				<div>
+					<input type='text' id='A4Sheets' value='' placeholder='Number of Bundles'>
+				</div>
+			</div>
+			<div id='item'>
+				<div>
+					<input type='text' id='pencilBox' value='' placeholder='Number of Pencil Box'>
+				</div>
+			</div>
+		</div>
+	
+		<input type='button' onclick='readItems();' value='Bill'>
+	</div>
+
+	<div id='bill' style='font-style: italic;' value=''></div>
+	<!-- For Dsaplaying Total Bill -->
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
